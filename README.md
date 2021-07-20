@@ -15,4 +15,8 @@ In the end I managed to statistically show that there is differences in the arre
 **Crime_List_Annotated.csv**: Lists all the crimes that occurred with an additional column where I have tried to classify each crime into it's type. I was interested to find out whether, for example, Sexual Crimes increased in prevelance over time compared to say Property Crimes.
 
 # Things I have learnt from this project
-I learnt how to create a basis map and a map that changes through time using the Folium package. I need to improve these maps to be able to do robust statistical analysis but for a first attempt I am proud of the overall visual EDA it gives. In future I would like to separate the areas into the 21 distinct boroughs and show the levels of crime on an area level rather than using the latitude and longitude.
+1. I learnt how to create a basis map and a map that changes through time using the Folium package. I need to improve these maps to be able to do robust statistical analysis but for a first attempt I am proud of the overall visual EDA it gives. In future I would like to separate the areas into the 21 distinct boroughs and show the levels of crime on an area level rather than using the latitude and longitude.
+2. My knowledge of seaborn increased and I learnt how to create Heatmaps and bubble plots that have proportional area for each point.
+
+# Things I need to improve
+1. I was unable to figure out how to get only the nth tick label to show on some graphs which lead to a horrible overlapping mess on the axis. In the end I had to remove the x tick labels as they were unreadable but I am aware this is bad practice and it did decrease the visual appeal of the plots.
